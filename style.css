@@ -1,0 +1,100 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte e o estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilo para as seções */
+section {
+    padding: 40px 0;
+}
+
+#sobre {
+    background-color: #ffffff;
+}
+
+#projetos {
+    background-color: #e9e9e9;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;
+}
+
+/* Lista de projetos */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
